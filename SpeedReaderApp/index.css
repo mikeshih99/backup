@@ -1,0 +1,30 @@
+#page1{
+    background: url(sky.jpg) center center fixed;
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    font-family: Shadows Into Light
+, serif;
+}
+
+#error{
+    background-color: #D87777;
+    width: 50%;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+#result{
+    font-size: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5% 0;
+}
+
+/* Hide the number input */
+.full-width-slider input {
+    display: none !important;
+}
+
+.full-width-slider .ui-slider-track {
+    margin-left: 15px;
+}
